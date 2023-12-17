@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Kanit&family=Montserrat:wght@600&family=Rubik&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Serif Display', serif;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    /* transition: all 3s ease-out; */
+}
+
+/* .dark-theme {
+    background-color: #3f7995;
+    background-image: linear-gradient(160deg, #3f7995 0%, #354a48 100%);
+
+    color: #fff;
+} */
+
+.container {
+    position: relative;
+    height: 550px;
+    width: 600px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 100px auto 0;
+    padding: 30px;
+    background-color: white;
+}
+
+.container h1 {
+    border-bottom: 2px solid lightgrey;
+    padding-bottom: 20px;
+}
+
+.container img {
+    width: 110px;
+    height: 60px;
+    position: relative;
+    top: 10px;
+    left: 120px;
+}
+
+.quiz {
+    padding: 20px 0;
+}
+
+.questionarea {
+    margin-bottom: 15px;
+}
+
+.btn {
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    transition: all 0.25s;
+}
+
+.btn:hover:not([disabled]) {
+    cursor: pointer;
+    background-color: #697b88;
+    background-image: linear-gradient(63deg, #697b88 0%, #000000 100%);
+    color: aliceblue;
+}
+
+.btn:disabled {
+    cursor: no-drop;
+}
+
+#nextbtn {
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkblue;
+    color: white;
+    padding: 10px;
+    margin: 20px auto 0;
+    cursor: pointer;
+    display: none;
+}
+
+.correct {
+    background: #9aeabc;
+}
+
+.incorrect {
+    background: #ff9393;
+}
